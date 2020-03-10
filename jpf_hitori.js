@@ -5,8 +5,8 @@
    Tutorial 11
    Review Assignment
 
-   Author: 
-   Date:   
+   Author: Dominic Torres
+   Date: 3/9/20  
 
    Global Variables
    ================
@@ -47,6 +47,17 @@
 	
 */
 
+//Global Variables
+var allCells;
+
+window.onload = startUp;
+//step 4
+function startUp(){
+   //step 5a
+   document.getElementById("puzzleTitle").innerHTML = "Puzzle 1";
+   //step 5b
+   document.getElementById("puzzle").innerHTML = drawHitori();
+}
 
 
 
@@ -54,9 +65,7 @@
 
 
 
-
-
-         
+    
 /* ================================================================= */
 
 function checkSolution() {
